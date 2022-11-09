@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+* {
+    margin: 0;
+}
+
+a {
+    color: EEE8E8;
+}
+
+body {
+    background-color: #2D2C2C;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: #EEE8E8;
+    font-family: 'Nunito', sans-serif;
+}
+
+ul {
+    color: #EEE8E8;
+    font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+.header, .footer {
+    background-color: lightgreen;
+}
+#menu { 
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFFFF;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+#googlemaps {
+    margin-left: 100px;
+}
+#wikipedia {
+    margin-right: 90px;
+}
+
+
+
+.main {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+#history {
+    background-color: #111111;
+    border-radius: 10px;
+    padding: 10px;
+}
+#interesting {
+    background-color: #111111;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+#gallery {
+    background-color: #111111;
+    border-radius: 10px;
+    padding: 10px;
+}
+#specific {
+    background-color: #111111;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.statistics {
+    background-color: #111111;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.locals{
+    padding: 10px;
+}
+#local {
+    background-color: #111111;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
